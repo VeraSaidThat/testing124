@@ -89,7 +89,7 @@
               }
             }
           ],
-          "_postman_id": "a69f66cc-0442-4019-a997-987e0a1f0afa",
+          "id": "a69f66cc-0442-4019-a997-987e0a1f0afa",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -132,79 +132,6 @@
             "description": "The HTTP `GET` request method is meant to retrieve data from a server. The data\nis identified by a unique URI (Uniform Resource Identifier). \n\nA `GET` request can pass parameters to the server using \"Query String \nParameters\". For example, in the following request,\n\n> http://example.com/hi/there?hand=wave\n\nThe parameter \"hand\" has the value \"wave\".\n\nThis endpoint echoes the HTTP headers, request parameters and the complete\nURI requested."
           },
           "response": [
-            {
-              "id": "77a4c3dd-e36d-429f-a4fb-a45c05ba6911",
-              "name": "GET Request Woops Copy",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "https://postman-echo.com/get?foo1=bar1&foo2=bar2",
-                  "protocol": "https",
-                  "host": [
-                    "postman-echo",
-                    "com"
-                  ],
-                  "path": [
-                    "get"
-                  ],
-                  "query": [
-                    {
-                      "key": "foo1",
-                      "value": "bar1"
-                    },
-                    {
-                      "key": "foo2",
-                      "value": "bar2"
-                    }
-                  ]
-                }
-              },
-              "status": "OK",
-              "code": 200,
-              "_postman_previewlanguage": "json",
-              "header": [
-                {
-                  "key": "Content-Encoding",
-                  "value": "gzip"
-                },
-                {
-                  "key": "Content-Type",
-                  "value": "application/json; charset=utf-8"
-                },
-                {
-                  "key": "Date",
-                  "value": "Tue, 11 Jun 2019 10:43:13 GMT"
-                },
-                {
-                  "key": "ETag",
-                  "value": "W/\"161-aLhNcsGArlgLSKbxPqfBW3viHPI\""
-                },
-                {
-                  "key": "Server",
-                  "value": "nginx"
-                },
-                {
-                  "key": "set-cookie",
-                  "value": "sails.sid=s%3AGz-wblZgXE8FCDq7aJpx_tUgZUcG3Nsw.LdNEN8L0C7nGWkvGLwvdw6R2s6Syjr%2FzkvyevA8qR0c; Path=/; HttpOnly"
-                },
-                {
-                  "key": "Vary",
-                  "value": "Accept-Encoding"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "249"
-                },
-                {
-                  "key": "Connection",
-                  "value": "keep-alive"
-                }
-              ],
-              "cookie": [],
-              "responseTime": null,
-              "body": "{\n    \"Data\": {\n        \"Name\": \"Int Machine 03\",\n        \"Int Machine 03 FailureQueueDepth\": \"2475\"\n    },\n    \"Status\": 2,\n    \"Message\": \"Count of items that have failed syncing is high.\"\n}"
-            },
             {
               "id": "f60471e4-a54f-412f-be73-dd45acfa8b8d",
               "name": "GET Request Woops",
@@ -277,6 +204,79 @@
               "cookie": [],
               "responseTime": null,
               "body": "{\n    \"args\": {\n        \"foo1\": \"bar1\",\n        \"foo2\": \"bar2\"\n    },\n    \"headers\": {\n        \"x-forwarded-proto\": \"https\",\n        \"host\": \"postman-echo.com\",\n        \"accept\": \"*/*\",\n        \"accept-encoding\": \"gzip, deflate\",\n        \"cache-control\": \"no-cache\",\n        \"postman-token\": \"5c27cd7d-6b16-4e5a-a0ef-191c9a3a275f\",\n        \"user-agent\": \"PostmanRuntime/7.6.1\",\n        \"x-forwarded-port\": \"443\"\n    },\n    \"url\": \"https://postman-echo.com/get?foo1=bar1&foo2=bar2\"\n    \"attribute1\": \"red beans\",\n    \"attribute2\": \"green beans\"\n\n}"
+            },
+            {
+              "id": "77a4c3dd-e36d-429f-a4fb-a45c05ba6911",
+              "name": "GET Request Woops Copy",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://postman-echo.com/get?foo1=bar1&foo2=bar2",
+                  "protocol": "https",
+                  "host": [
+                    "postman-echo",
+                    "com"
+                  ],
+                  "path": [
+                    "get"
+                  ],
+                  "query": [
+                    {
+                      "key": "foo1",
+                      "value": "bar1"
+                    },
+                    {
+                      "key": "foo2",
+                      "value": "bar2"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Encoding",
+                  "value": "gzip"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Tue, 11 Jun 2019 10:43:13 GMT"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"161-aLhNcsGArlgLSKbxPqfBW3viHPI\""
+                },
+                {
+                  "key": "Server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "set-cookie",
+                  "value": "sails.sid=s%3AGz-wblZgXE8FCDq7aJpx_tUgZUcG3Nsw.LdNEN8L0C7nGWkvGLwvdw6R2s6Syjr%2FzkvyevA8qR0c; Path=/; HttpOnly"
+                },
+                {
+                  "key": "Vary",
+                  "value": "Accept-Encoding"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "249"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"Data\": {\n        \"Name\": \"Int Machine 03\",\n        \"Int Machine 03 FailureQueueDepth\": \"2475\"\n    },\n    \"Status\": 2,\n    \"Message\": \"Count of items that have failed syncing is high.\"\n}"
             }
           ]
         },
@@ -301,7 +301,7 @@
               }
             }
           ],
-          "_postman_id": "18c96cf0-6798-4854-8ebb-e53d40b9129d",
+          "id": "18c96cf0-6798-4854-8ebb-e53d40b9129d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -313,10 +313,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "This is expected to be sent back as part of response body.",
-              "options": {
-                "raw": {}
-              }
+              "raw": "This is expected to be sent back as part of response body."
             },
             "url": "https://postman-echo.com/post",
             "description": "The HTTP `POST` request method is meant to transfer data to a server \n(and elicit a response). What data is returned depends on the implementation\nof the server.\n\nA `POST` request can pass parameters to the server using \"Query String \nParameters\", as well as the Request Body. For example, in the following request,\n\n> POST /hi/there?hand=wave\n>\n> <request-body>\n\nThe parameter \"hand\" has the value \"wave\". The request body can be in multiple\nformats. These formats are defined by the MIME type of the request. The MIME \nType can be set using the ``Content-Type`` HTTP header. The most commonly used \nMIME types are:\n\n* `multipart/form-data`\n* `application/x-www-form-urlencoded`\n* `application/json`\n\nThis endpoint echoes the HTTP headers, request parameters, the contents of\nthe request body and the complete URI requested."
@@ -363,7 +360,7 @@
               }
             }
           ],
-          "_postman_id": "567d3fe7-7421-4437-985f-eb409714f3ea",
+          "id": "567d3fe7-7421-4437-985f-eb409714f3ea",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -386,10 +383,7 @@
                   "value": "bar2",
                   "type": "text"
                 }
-              ],
-              "options": {
-                "urlencoded": {}
-              }
+              ]
             },
             "url": "https://postman-echo.com/post",
             "description": "The HTTP `POST` request method is meant to transfer data to a server \n(and elicit a response). What data is returned depends on the implementation\nof the server.\n\nA `POST` request can pass parameters to the server using \"Query String \nParameters\", as well as the Request Body. For example, in the following request,\n\n> POST /hi/there?hand=wave\n>\n> <request-body>\n\nThe parameter \"hand\" has the value \"wave\". The request body can be in multiple\nformats. These formats are defined by the MIME type of the request. The MIME \nType can be set using the ``Content-Type`` HTTP header. The most commonly used \nMIME types are:\n\n* `multipart/form-data`\n* `application/x-www-form-urlencoded`\n* `application/json`\n\nThis endpoint echoes the HTTP headers, request parameters, the contents of\nthe request body and the complete URI requested when data is sent as a form parameter."
@@ -417,7 +411,7 @@
               }
             }
           ],
-          "_postman_id": "519a83c4-9fb0-4aa0-8b67-9421f67c7ed1",
+          "id": "519a83c4-9fb0-4aa0-8b67-9421f67c7ed1",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -429,10 +423,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "This is expected to be sent back as part of response body.",
-              "options": {
-                "raw": {}
-              }
+              "raw": "This is expected to be sent back as part of response body."
             },
             "url": "https://postman-echo.com/put",
             "description": "The HTTP `PUT` request method is similar to HTTP `POST`. It too is meant to \ntransfer data to a server (and elicit a response). What data is returned depends on the implementation\nof the server.\n\nA `PUT` request can pass parameters to the server using \"Query String \nParameters\", as well as the Request Body. For example, in the following \nraw HTTP request,\n\n> PUT /hi/there?hand=wave\n>\n> <request-body>\n\n\n"
@@ -460,7 +451,7 @@
               }
             }
           ],
-          "_postman_id": "3b4fb059-65b6-49a7-8dc0-8de6dc431b32",
+          "id": "3b4fb059-65b6-49a7-8dc0-8de6dc431b32",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -472,10 +463,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "This is expected to be sent back as part of response body.",
-              "options": {
-                "raw": {}
-              }
+              "raw": "This is expected to be sent back as part of response body."
             },
             "url": "https://postman-echo.com/patch",
             "description": "The HTTP `PATCH` method is used to update resources on a server. The exact\nuse of `PATCH` requests depends on the server in question. There are a number\nof server implementations which handle `PATCH` differently. Technically, \n`PATCH` supports both Query String parameters and a Request Body.\n\nThis endpoint accepts an HTTP `PATCH` request and provides debug information\nsuch as the HTTP headers, Query String arguments, and the Request Body."
@@ -503,7 +491,7 @@
               }
             }
           ],
-          "_postman_id": "9375b2a2-3b9d-4217-b0af-7a076337822c",
+          "id": "9375b2a2-3b9d-4217-b0af-7a076337822c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -515,10 +503,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "This is expected to be sent back as part of response body.",
-              "options": {
-                "raw": {}
-              }
+              "raw": "This is expected to be sent back as part of response body."
             },
             "url": "https://postman-echo.com/delete",
             "description": "The HTTP `DELETE` method is used to delete resources on a server. The exact\nuse of `DELETE` requests depends on the server implementation. In general, \n`DELETE` requests support both, Query String parameters as well as a Request \nBody.\n\nThis endpoint accepts an HTTP `DELETE` request and provides debug information\nsuch as the HTTP headers, Query String arguments, and the Request Body."
@@ -526,7 +511,7 @@
           "response": []
         }
       ],
-      "_postman_id": "4bb30cac-3d7b-4bab-a7d9-20b655a7533c",
+      "id": "4bb30cac-3d7b-4bab-a7d9-20b655a7533c",
       "description": "HTTP has multiple request \"verbs\", such as `GET`, `PUT`, `POST`, `DELETE`,\n`PATCH`, `HEAD`, etc. \n\nAn HTTP Method (verb) defines how a request should be interpreted by a server. \nThe endpoints in this section demonstrate various HTTP Verbs. Postman supports \nall the HTTP Verbs, including some rarely used ones, such as `PROPFIND`, `UNLINK`, \netc.\n\nFor details about HTTP Verbs, refer to [RFC 2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9)\n"
     },
     {
@@ -555,7 +540,7 @@
               }
             }
           ],
-          "_postman_id": "40d37a0f-ed3b-43a1-ac7f-88544537e23d",
+          "id": "40d37a0f-ed3b-43a1-ac7f-88544537e23d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -705,7 +690,7 @@
               }
             }
           ],
-          "_postman_id": "29f65d7b-0aa2-40ad-8661-f1169f65fac3",
+          "id": "29f65d7b-0aa2-40ad-8661-f1169f65fac3",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -867,7 +852,7 @@
           ]
         }
       ],
-      "_postman_id": "35b3e8d9-8e0e-4749-9560-790a2dc66b65",
+      "id": "35b3e8d9-8e0e-4749-9560-790a2dc66b65",
       "description": "The following set of endpoints allow one to see the headers being sent as part of a request and to get a custom set of headers as part of response.\n\nHTTP header fields provide required information about the request or response, or about the object sent in the message body. Both request headers and response headers can be controlled using these endpoints."
     },
     {
@@ -893,7 +878,7 @@
               }
             }
           ],
-          "_postman_id": "6f5c6500-b984-4cf9-bea1-c83f7deaaeac",
+          "id": "6f5c6500-b984-4cf9-bea1-c83f7deaaeac",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1027,7 +1012,7 @@
               }
             }
           ],
-          "_postman_id": "1ef437d6-643d-4fd4-a174-220f4d1291d7",
+          "id": "1ef437d6-643d-4fd4-a174-220f4d1291d7",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1188,7 +1173,7 @@
               }
             }
           ],
-          "_postman_id": "4e6606fa-5644-4632-a231-6a0f83053f13",
+          "id": "4e6606fa-5644-4632-a231-6a0f83053f13",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1368,7 +1353,7 @@
               }
             }
           ],
-          "_postman_id": "120193cf-b092-4ff0-a467-7382ef99d011",
+          "id": "120193cf-b092-4ff0-a467-7382ef99d011",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1595,7 +1580,7 @@
           ]
         }
       ],
-      "_postman_id": "3606c2c2-db00-4c75-9e54-94e7ec0e0bc1"
+      "id": "3606c2c2-db00-4c75-9e54-94e7ec0e0bc1"
     },
     {
       "name": "Cookie Manipulation",
@@ -1636,7 +1621,7 @@
               }
             }
           ],
-          "_postman_id": "6673998e-b8bb-4182-a8d2-1b0d9f3459ab",
+          "id": "6673998e-b8bb-4182-a8d2-1b0d9f3459ab",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1810,7 +1795,7 @@
               }
             }
           ],
-          "_postman_id": "57cc5f2f-aec6-4cd0-8c43-80c673bb092c",
+          "id": "57cc5f2f-aec6-4cd0-8c43-80c673bb092c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -1949,7 +1934,7 @@
               }
             }
           ],
-          "_postman_id": "1843fb0f-a7fc-414c-b9f0-0b80b86622c2",
+          "id": "1843fb0f-a7fc-414c-b9f0-0b80b86622c2",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2095,7 +2080,7 @@
           ]
         }
       ],
-      "_postman_id": "7bcde945-c203-42ee-b393-255c59a5478c",
+      "id": "7bcde945-c203-42ee-b393-255c59a5478c",
       "description": "The cookie related endpoints allow one to get, set and delete simple cookies.\n\nCookies are small snippets of information that is stored in the browser and sent back to the server with every subsequent requests in order to store useful information between requests.\nIf you want to know more about cookies, read the [HTTP Cookie](https://en.wikipedia.org/wiki/HTTP_cookie) article on wikipedia."
     },
     {
@@ -2126,7 +2111,7 @@
               }
             }
           ],
-          "_postman_id": "a4cc7b2f-c0ec-4913-9275-fbbd627b7f0a",
+          "id": "a4cc7b2f-c0ec-4913-9275-fbbd627b7f0a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2293,7 +2278,7 @@
               }
             }
           ],
-          "_postman_id": "119237bb-7ca9-47f8-82b2-317f28255881",
+          "id": "119237bb-7ca9-47f8-82b2-317f28255881",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2335,7 +2320,7 @@
               }
             }
           ],
-          "_postman_id": "5d087e07-f9db-4e2b-8d69-358db68daed7",
+          "id": "5d087e07-f9db-4e2b-8d69-358db68daed7",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2471,7 +2456,7 @@
               }
             }
           ],
-          "_postman_id": "2c06d12c-257e-46c0-9fd8-59bb6f67953c",
+          "id": "2c06d12c-257e-46c0-9fd8-59bb6f67953c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2513,7 +2498,7 @@
               }
             }
           ],
-          "_postman_id": "e3d8dc52-d4bb-40aa-8eeb-38fd7b435906",
+          "id": "e3d8dc52-d4bb-40aa-8eeb-38fd7b435906",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2555,7 +2540,7 @@
               }
             }
           ],
-          "_postman_id": "5431911f-e73d-4f9e-974e-9af2967566a3",
+          "id": "5431911f-e73d-4f9e-974e-9af2967566a3",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2593,7 +2578,7 @@
               }
             }
           ],
-          "_postman_id": "53eae7ab-f0ea-402f-b224-4347590aab33",
+          "id": "53eae7ab-f0ea-402f-b224-4347590aab33",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2606,7 +2591,7 @@
           "response": []
         }
       ],
-      "_postman_id": "b84937e6-eb4d-4bbe-abc7-66d5f53253cd"
+      "id": "b84937e6-eb4d-4bbe-abc7-66d5f53253cd"
     },
     {
       "name": "Utilities / Date and Time",
@@ -2631,7 +2616,7 @@
               }
             }
           ],
-          "_postman_id": "af928c61-a53a-4fd0-a75a-78568a25f9e1",
+          "id": "af928c61-a53a-4fd0-a75a-78568a25f9e1",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -2775,7 +2760,7 @@
               }
             }
           ],
-          "_postman_id": "0605a928-fb15-4907-8c4a-1f041b2049dc",
+          "id": "0605a928-fb15-4907-8c4a-1f041b2049dc",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3069,7 +3054,7 @@
               }
             }
           ],
-          "_postman_id": "26e03d8a-3da3-4a8c-916e-b3fccf537d52",
+          "id": "26e03d8a-3da3-4a8c-916e-b3fccf537d52",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3122,7 +3107,7 @@
               }
             }
           ],
-          "_postman_id": "35b5cbd2-e65a-428b-8f25-53678f3f2e58",
+          "id": "35b5cbd2-e65a-428b-8f25-53678f3f2e58",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3175,7 +3160,7 @@
               }
             }
           ],
-          "_postman_id": "1048d2b9-f19c-4b13-a2d8-9fb3b616041e",
+          "id": "1048d2b9-f19c-4b13-a2d8-9fb3b616041e",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3228,7 +3213,7 @@
               }
             }
           ],
-          "_postman_id": "b69c1b2b-6c9c-4d8f-ab2d-21c3dc99cb82",
+          "id": "b69c1b2b-6c9c-4d8f-ab2d-21c3dc99cb82",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3281,7 +3266,7 @@
               }
             }
           ],
-          "_postman_id": "13bb88cf-94ba-43f8-b75e-199479b343fd",
+          "id": "13bb88cf-94ba-43f8-b75e-199479b343fd",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3343,7 +3328,7 @@
               }
             }
           ],
-          "_postman_id": "1de6b0d2-c326-4bd5-94ff-fe8902b4dbc8",
+          "id": "1de6b0d2-c326-4bd5-94ff-fe8902b4dbc8",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3392,7 +3377,7 @@
               }
             }
           ],
-          "_postman_id": "702122e7-2079-41bf-b344-17598e6c1668",
+          "id": "702122e7-2079-41bf-b344-17598e6c1668",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3445,7 +3430,7 @@
               }
             }
           ],
-          "_postman_id": "0e47ad27-23d9-4c3b-a762-07f416b1b313",
+          "id": "0e47ad27-23d9-4c3b-a762-07f416b1b313",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3498,7 +3483,7 @@
               }
             }
           ],
-          "_postman_id": "b8f356d9-f091-415a-8f39-dddc68f5668a",
+          "id": "b8f356d9-f091-415a-8f39-dddc68f5668a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3555,7 +3540,7 @@
               }
             }
           ],
-          "_postman_id": "92845ee7-ee2c-4326-9069-a52a4142a534",
+          "id": "92845ee7-ee2c-4326-9069-a52a4142a534",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3585,7 +3570,7 @@
           "response": []
         }
       ],
-      "_postman_id": "122853b1-1491-4793-bf3c-b97942c66309",
+      "id": "122853b1-1491-4793-bf3c-b97942c66309",
       "description": "A set of `/time/*` mounted requests to perform date-time manipulations, among other operations.\n"
     },
     {
@@ -3617,7 +3602,7 @@
               }
             }
           ],
-          "_postman_id": "d867e0e3-bf96-4aba-8066-f559bcad0fa2",
+          "id": "d867e0e3-bf96-4aba-8066-f559bcad0fa2",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -3630,8 +3615,516 @@
           "response": []
         }
       ],
-      "_postman_id": "e2088bba-56c5-4d4a-8870-6b79f31cc17f",
+      "id": "e2088bba-56c5-4d4a-8870-6b79f31cc17f",
       "description": "Digest authentication protects an endpoint with a username and password without actually transmitting the password over network.\nOne has to apply a hash function (like MD5, etc) to the username and password before sending them over the network.\n\n> Username: `postman`\n>\n> Password: `password`\n\nUnlike Basic-Auth, authentication happens using two consecutive requests where the first request returns `401 Unauthorised` along with `WWW-Authenticate` header containing information that needs to be used to authenticate subsequent calls.\n\nTo know more about digest authentication, refer to the [Digest Access Authentication](https://en.wikipedia.org/wiki/Digest_access_authentication) wikipedia article.\nThe article on [authentication helpers](https://www.getpostman.com/docs/helpers#digest-auth) elaborates how to use the same within the Postman app."
+    },
+    {
+      "name": "Request Methods Copy",
+      "item": [
+        {
+          "name": "GET Request",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "// pm.test(\"response is ok\", function () {",
+                  "//     pm.response.to.have.status(200);",
+                  "// });",
+                  "",
+                  "// pm.test(\"response body has json with request queries\", function () {",
+                  "//     pm.response.to.have.jsonBody('args.foo1', 'bar1')",
+                  "//         .and.have.jsonBody('args.foo2', 'bar2');",
+                  "// });",
+                  "",
+                  "pm.test(\"IntMachine03FailureQueueDepth returns a number\", function () {",
+                  "var jsonData = pm.response.json();",
+                  "var Y = parseInt(jsonData.Data.IntMachine03FailureQueueDepth);",
+                  "pm.expect(Y).to.be.greaterThan(2400);",
+                  "});"
+                ],
+                "type": "text/javascript",
+                "id": "992aab7a-5bc5-48b5-a950-a23267900b1c"
+              }
+            },
+            {
+              "listen": "prerequest",
+              "script": {
+                "exec": [
+                  "// function isBase64(str) {",
+                  "//     if (str ==='' || str.trim() ===''){ return false; }",
+                  "//     try {",
+                  "//         return btoa(atob(str)) == str;",
+                  "//     } catch (err) {",
+                  "//         return false;",
+                  "//     }",
+                  "// }",
+                  "",
+                  "// var uuid = require('uuid');",
+                  "// var moment = require('moment');",
+                  "",
+                  "// var AppId = \"myappidhere\";",
+                  "// var APIKey = \"myapikeyhere\";",
+                  "",
+                  "// if(!isBase64(APIKey))",
+                  "// {",
+                  "//     console.log(\"API Key is not base64: \" + APIKey);",
+                  "// }",
+                  "// else",
+                  "// {",
+                  "//     var requestURI = encodeURIComponent(pm.environment.values.substitute(pm.request.url, null, false).getRaw()).toLowerCase();",
+                  "//     var requestMethod = pm.request.method;",
+                  "//     var requestTimeStamp = moment(new Date().toUTCString()).valueOf() / 1000;",
+                  "//     var nonce = uuid.v4();",
+                  "//     var requestContentBase64String = \"\";",
+                  "",
+                  "//     if (pm.request.body)",
+                  "//     {",
+                  "//         var md5 = CryptoJS.MD5(pm.request.body.toString());",
+                  "//         requestContentBase64String = CryptoJS.enc.Base64.stringify(md5);",
+                  "//     }",
+                  "",
+                  "//     var signatureRawData = AppId + requestMethod + requestURI + requestTimeStamp + nonce + requestContentBase64String;",
+                  "//     var signature = CryptoJS.enc.Utf8.parse(signatureRawData);",
+                  "//     var secretByteArray = CryptoJS.enc.Base64.parse(APIKey);",
+                  "//     var signatureBytes = CryptoJS.HmacSHA256(signature, secretByteArray);",
+                  "//     var requestSignatureBase64String = CryptoJS.enc.Base64.stringify(signatureBytes);",
+                  "",
+                  "//     var hmacKey = \"amx \" + AppId + \":\" + requestSignatureBase64String + \":\" + nonce + \":\" + requestTimeStamp;",
+                  "// }",
+                  "",
+                  "// pm.environment.set(\"hmacKey\", hmacKey);",
+                  ""
+                ],
+                "type": "text/javascript",
+                "id": "8a403d45-5109-48e5-934b-9d185d9157a9"
+              }
+            }
+          ],
+          "id": "f4ea143b-d11e-4af9-afe9-6178c0d970e7",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"Data\": {\n        \"Name\": \"Int Machine 03\",\n        \"Int Machine 03 FailureQueueDepth\": \"2475\"\n    },\n    \"Status\": 2,\n    \"Message\": \"Count of items that have failed syncing is high.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://postman-echo.com/get?foo1=bar1&foo2=bar2",
+              "protocol": "https",
+              "host": [
+                "postman-echo",
+                "com"
+              ],
+              "path": [
+                "get"
+              ],
+              "query": [
+                {
+                  "key": "foo1",
+                  "value": "bar1"
+                },
+                {
+                  "key": "foo2",
+                  "value": "bar2"
+                }
+              ]
+            },
+            "description": "The HTTP `GET` request method is meant to retrieve data from a server. The data\nis identified by a unique URI (Uniform Resource Identifier). \n\nA `GET` request can pass parameters to the server using \"Query String \nParameters\". For example, in the following request,\n\n> http://example.com/hi/there?hand=wave\n\nThe parameter \"hand\" has the value \"wave\".\n\nThis endpoint echoes the HTTP headers, request parameters and the complete\nURI requested."
+          },
+          "response": [
+            {
+              "id": "96d002b6-2af3-4ef5-8b50-d038d1661007",
+              "name": "GET Request Woops",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://postman-echo.com/get?foo1=bar1&foo2=bar2",
+                  "protocol": "https",
+                  "host": [
+                    "postman-echo",
+                    "com"
+                  ],
+                  "path": [
+                    "get"
+                  ],
+                  "query": [
+                    {
+                      "key": "foo1",
+                      "value": "bar1"
+                    },
+                    {
+                      "key": "foo2",
+                      "value": "bar2"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Encoding",
+                  "value": "gzip"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Tue, 11 Jun 2019 10:43:13 GMT"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"161-aLhNcsGArlgLSKbxPqfBW3viHPI\""
+                },
+                {
+                  "key": "Server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "set-cookie",
+                  "value": "sails.sid=s%3AGz-wblZgXE8FCDq7aJpx_tUgZUcG3Nsw.LdNEN8L0C7nGWkvGLwvdw6R2s6Syjr%2FzkvyevA8qR0c; Path=/; HttpOnly"
+                },
+                {
+                  "key": "Vary",
+                  "value": "Accept-Encoding"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "249"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"args\": {\n        \"foo1\": \"bar1\",\n        \"foo2\": \"bar2\"\n    },\n    \"headers\": {\n        \"x-forwarded-proto\": \"https\",\n        \"host\": \"postman-echo.com\",\n        \"accept\": \"*/*\",\n        \"accept-encoding\": \"gzip, deflate\",\n        \"cache-control\": \"no-cache\",\n        \"postman-token\": \"5c27cd7d-6b16-4e5a-a0ef-191c9a3a275f\",\n        \"user-agent\": \"PostmanRuntime/7.6.1\",\n        \"x-forwarded-port\": \"443\"\n    },\n    \"url\": \"https://postman-echo.com/get?foo1=bar1&foo2=bar2\"\n    \"attribute1\": \"red beans\",\n    \"attribute2\": \"green beans\"\n\n}"
+            },
+            {
+              "id": "5306e4b6-60ea-4e4c-b29f-31e5bf6049cf",
+              "name": "GET Request Woops Copy",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://postman-echo.com/get?foo1=bar1&foo2=bar2",
+                  "protocol": "https",
+                  "host": [
+                    "postman-echo",
+                    "com"
+                  ],
+                  "path": [
+                    "get"
+                  ],
+                  "query": [
+                    {
+                      "key": "foo1",
+                      "value": "bar1"
+                    },
+                    {
+                      "key": "foo2",
+                      "value": "bar2"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "Content-Encoding",
+                  "value": "gzip"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Tue, 11 Jun 2019 10:43:13 GMT"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"161-aLhNcsGArlgLSKbxPqfBW3viHPI\""
+                },
+                {
+                  "key": "Server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "set-cookie",
+                  "value": "sails.sid=s%3AGz-wblZgXE8FCDq7aJpx_tUgZUcG3Nsw.LdNEN8L0C7nGWkvGLwvdw6R2s6Syjr%2FzkvyevA8qR0c; Path=/; HttpOnly"
+                },
+                {
+                  "key": "Vary",
+                  "value": "Accept-Encoding"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "249"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                }
+              ],
+              "cookie": [],
+              "responseTime": null,
+              "body": "{\n    \"Data\": {\n        \"Name\": \"Int Machine 03\",\n        \"Int Machine 03 FailureQueueDepth\": \"2475\"\n    },\n    \"Status\": 2,\n    \"Message\": \"Count of items that have failed syncing is high.\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "POST Raw Text",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"response is ok\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"response body has json with request body\", function () {",
+                  "    pm.response.to.have.jsonBody('data', ",
+                  "        'This is expected to be sent back as part of response body.');",
+                  "});"
+                ],
+                "type": "text/javascript",
+                "id": "2cc7f788-f9d7-4227-9a5c-69c98b53b647"
+              }
+            }
+          ],
+          "id": "e1bb4a87-bb9d-4491-b020-12bb1e8b2399",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "This is expected to be sent back as part of response body."
+            },
+            "url": "https://postman-echo.com/post",
+            "description": "The HTTP `POST` request method is meant to transfer data to a server \n(and elicit a response). What data is returned depends on the implementation\nof the server.\n\nA `POST` request can pass parameters to the server using \"Query String \nParameters\", as well as the Request Body. For example, in the following request,\n\n> POST /hi/there?hand=wave\n>\n> <request-body>\n\nThe parameter \"hand\" has the value \"wave\". The request body can be in multiple\nformats. These formats are defined by the MIME type of the request. The MIME \nType can be set using the ``Content-Type`` HTTP header. The most commonly used \nMIME types are:\n\n* `multipart/form-data`\n* `application/x-www-form-urlencoded`\n* `application/json`\n\nThis endpoint echoes the HTTP headers, request parameters, the contents of\nthe request body and the complete URI requested."
+          },
+          "response": [
+            {
+              "id": "5aabffbb-aaec-400e-9baf-bbe525da63f7",
+              "name": "POST Raw Text",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "This is expected to be sent back as part of response body."
+                },
+                "url": "https://b28c4cb7-656e-438a-83a5-b2c4e787f9ee.mock.pstmn.io/post"
+              },
+              "_postman_previewlanguage": "Text",
+              "header": [],
+              "cookie": [],
+              "responseTime": null,
+              "body": ""
+            }
+          ]
+        },
+        {
+          "name": "POST Form Data",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"response is ok\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"response body has json with form data\", function () {",
+                  "    pm.response.to.have.jsonBody('form.foo1', 'bar1')",
+                  "        .and.have.jsonBody('form.foo2', 'bar2');",
+                  "});"
+                ],
+                "type": "text/javascript",
+                "id": "f01f3d24-ff20-412a-8321-5c659a7f9ea9"
+              }
+            }
+          ],
+          "id": "24515e1a-98e9-478e-8ce4-02cca0148a18",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "foo1",
+                  "value": "bar1",
+                  "type": "text"
+                },
+                {
+                  "key": "foo2",
+                  "value": "bar2",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "https://postman-echo.com/post",
+            "description": "The HTTP `POST` request method is meant to transfer data to a server \n(and elicit a response). What data is returned depends on the implementation\nof the server.\n\nA `POST` request can pass parameters to the server using \"Query String \nParameters\", as well as the Request Body. For example, in the following request,\n\n> POST /hi/there?hand=wave\n>\n> <request-body>\n\nThe parameter \"hand\" has the value \"wave\". The request body can be in multiple\nformats. These formats are defined by the MIME type of the request. The MIME \nType can be set using the ``Content-Type`` HTTP header. The most commonly used \nMIME types are:\n\n* `multipart/form-data`\n* `application/x-www-form-urlencoded`\n* `application/json`\n\nThis endpoint echoes the HTTP headers, request parameters, the contents of\nthe request body and the complete URI requested when data is sent as a form parameter."
+          },
+          "response": []
+        },
+        {
+          "name": "PUT Request",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"response is ok\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"response body has json with form data\", function () {",
+                  "    pm.response.to.have.jsonBody('data', ",
+                  "        'This is expected to be sent back as part of response body.');",
+                  "});"
+                ],
+                "type": "text/javascript",
+                "id": "1f8529d4-4a19-4049-a20e-bdcbdfe8a81a"
+              }
+            }
+          ],
+          "id": "aeba0fce-2957-4812-9d70-cff448cf6f58",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "This is expected to be sent back as part of response body."
+            },
+            "url": "https://postman-echo.com/put",
+            "description": "The HTTP `PUT` request method is similar to HTTP `POST`. It too is meant to \ntransfer data to a server (and elicit a response). What data is returned depends on the implementation\nof the server.\n\nA `PUT` request can pass parameters to the server using \"Query String \nParameters\", as well as the Request Body. For example, in the following \nraw HTTP request,\n\n> PUT /hi/there?hand=wave\n>\n> <request-body>\n\n\n"
+          },
+          "response": []
+        },
+        {
+          "name": "PATCH Request",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"response is ok\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"response body has json with form data\", function () {",
+                  "    pm.response.to.have.jsonBody('data', ",
+                  "        'This is expected to be sent back as part of response body.');",
+                  "});"
+                ],
+                "type": "text/javascript",
+                "id": "017edd69-2ddd-4221-a8bf-80d5d32c4d01"
+              }
+            }
+          ],
+          "id": "1130db16-6285-4f46-b7c9-ceab6b202343",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "This is expected to be sent back as part of response body."
+            },
+            "url": "https://postman-echo.com/patch",
+            "description": "The HTTP `PATCH` method is used to update resources on a server. The exact\nuse of `PATCH` requests depends on the server in question. There are a number\nof server implementations which handle `PATCH` differently. Technically, \n`PATCH` supports both Query String parameters and a Request Body.\n\nThis endpoint accepts an HTTP `PATCH` request and provides debug information\nsuch as the HTTP headers, Query String arguments, and the Request Body."
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE Request",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"response is ok\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"response body has json with form data\", function () {",
+                  "    pm.response.to.have.jsonBody('data', ",
+                  "        'This is expected to be sent back as part of response body.');",
+                  "});"
+                ],
+                "type": "text/javascript",
+                "id": "2ed71e9c-18e5-4c51-8727-7f78a961155b"
+              }
+            }
+          ],
+          "id": "16cccba6-efb3-4261-9335-f126a7a3958a",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "This is expected to be sent back as part of response body."
+            },
+            "url": "https://postman-echo.com/delete",
+            "description": "The HTTP `DELETE` method is used to delete resources on a server. The exact\nuse of `DELETE` requests depends on the server implementation. In general, \n`DELETE` requests support both, Query String parameters as well as a Request \nBody.\n\nThis endpoint accepts an HTTP `DELETE` request and provides debug information\nsuch as the HTTP headers, Query String arguments, and the Request Body."
+          },
+          "response": []
+        }
+      ],
+      "id": "80946c59-0441-4339-9b34-4c3c8974561d",
+      "description": "HTTP has multiple request \"verbs\", such as `GET`, `PUT`, `POST`, `DELETE`,\n`PATCH`, `HEAD`, etc. \n\nAn HTTP Method (verb) defines how a request should be interpreted by a server. \nThe endpoints in this section demonstrate various HTTP Verbs. Postman supports \nall the HTTP Verbs, including some rarely used ones, such as `PROPFIND`, `UNLINK`, \netc.\n\nFor details about HTTP Verbs, refer to [RFC 2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9)\n"
     }
   ],
   "auth": {
