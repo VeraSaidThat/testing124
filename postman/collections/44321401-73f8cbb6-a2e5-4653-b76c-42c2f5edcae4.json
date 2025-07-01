@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "44321401-73f8cbb6-a2e5-4653-b76c-42c2f5edcae4",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "44321401-aab1162c-045b-4fea-9259-e628b50a9220",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "www.postman-echo.com/get",
+					"host": [
+						"www",
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "44321401-d1344ef3-2a16-4431-92a4-0ab8ca893324",
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "www.postman-echo.com/get",
+							"host": [
+								"www",
+								"postman-echo",
+								"com"
+							],
+							"path": [
+								"get"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "content-length",
+							"value": "338"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"152-apRK1i10dDbbmzbatNKaN9gbtNE\""
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "set-cookie",
+							"value": "sails.sid=s%3ALRUh8qIK89hL9IisZirDdLxfwbr9vM5J.dToRoRlMl5yOW0q8JvCidvQFo5h2PxCWxOuhgnhE6Xg; Path=/; HttpOnly"
+						},
+						{
+							"key": "date",
+							"value": "Tue, 17 Jun 2025 18:22:39 GMT"
+						},
+						{
+							"key": "x-envoy-upstream-service-time",
+							"value": "4"
+						},
+						{
+							"key": "server",
+							"value": "istio-envoy"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"args\": {},\n    \"headers\": {\n        \"host\": \"www.postman-echo.com\",\n        \"user-agent\": \"PostmanRuntime/7.44.0\",\n        \"accept\": \"*/*\",\n        \"cache-control\": \"no-cache\",\n        \"postman-token\": \"4af854e9-191c-4a37-98c2-6e70ec7c3230\",\n        \"accept-encoding\": \"gzip, deflate, br\",\n        \"referer\": \"http://www.postman-echo.com/get\",\n        \"x-forwarded-proto\": \"https\"\n    },\n    \"url\": \"https://www.postman-echo.com/get\"\n}"
+				}
+			]
+		},
+		{
+			"name": "MOCK GET",
+			"id": "44321401-1f8a6ea4-d1e4-47ac-9fae-f436bb710066",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://7efe11aa-17b6-4739-ba0c-3e2bd50cf157.mock.pstmn.io/get",
+					"protocol": "https",
+					"host": [
+						"7efe11aa-17b6-4739-ba0c-3e2bd50cf157",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
