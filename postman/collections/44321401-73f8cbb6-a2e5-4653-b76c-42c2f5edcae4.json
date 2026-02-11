@@ -112,6 +112,102 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "https://support.postmanlabs.com/api/action_on_entity",
+			"id": "44321401-0148e539-3b62-47a6-8979-7f4953894741",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "origin",
+						"value": "https://support.postmanlabs.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://support.postmanlabs.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-csrf-token",
+						"value": "W6si8ubyOGp5VkyCUqgtVDwg4wi+0jkSV9j30="
+					},
+					{
+						"key": "Cookie",
+						"value": "ajs_anonymous_id=%22a1535650-e0b0-4d62-81e3-6fc5a0f3bc7f%22; sails.sid=s%3AFRKl0V-Gh4i4mFUMnucd6rd7JiN7BbNt.0%2FJWhL%2BxACIqOW5AUDGUJ6dM6aYW2lbivkp5wnjGxCw; postman-support.sid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjI4LCJuYW1lIjoiTmF0YWxpZSBNYXJ0ZWxsIiwiZW1haWwiOiJuYXRhbGllLm1hcnRlbGxAcG9zdG1hbi5jb20iLCJhY2Nlc3NfdG9rZW4iOiI0NTk5MWI5NmM1NmUxNDBlMjdhNzUxNzFjZTEwZTI1ZTNmN2JiMWUzOGQ3NWU3MmJlMWQyNTFjN2NkOTUxYWYwODgzZjNjM2QiLCJhZG1pbiI6ZmFsc2UsInByb3ZpZGVyIjoiZ29vZ2xlIiwiZ29vZ2xlX2lkIjoiMTE4MDAxODM4OTY2Mjg5Mjc2NTAxIn0.LZF9jUcyWDZeWUoa4Rln0Hwez0H4ka5bXg5pdG6bIN8; __cf_bm=rhoctmmTjifes1tfANjVoLVoa2ng7Y.VpgGYJdmDFBc-1770838834-1.0.1.1-zqxRX59Vsvsa77DO80ME7wycXa.pqaCjgepzLuJ9x_JxzCkpEMoHTC8eOasZpkNAQN2iNZYE2QsQNQjkmzzoUhKHt_tG0ZF5XdSHNHkxtck"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"req_options\":{\"uri\":\"/x/support/workspaces/5999d6f1-6fe3-4bfc-823c-46ea33610131/visibility?user_id=36138394\",\"body\":{\"visibilityStatus\":\"team\"}},\"_permission\":\"root/Collaboration/Workspaces/UPDATE VISIBILITY OF WORKSPACE\",\"agent_logs\":{\"data\":{\"workspaceId\":\"5999d6f1-6fe3-4bfc-823c-46ea33610131\",\"userId\":\"36138394\",\"visibilityStatus\":\"team\",\"agent_notes\":\"support test\"},\"action\":\"UPDATE VISIBILITY OF WORKSPACE\",\"entity_name\":\"workspaceservice\",\"entity_id\":\"\"},\"workspaceId\":\"5999d6f1-6fe3-4bfc-823c-46ea33610131\",\"userId\":\"36138394\",\"visibilityStatus\":\"team\",\"agent_notes\":\"support test\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://support.postmanlabs.com/api/action_on_entity",
+					"protocol": "https",
+					"host": [
+						"support",
+						"postmanlabs",
+						"com"
+					],
+					"path": [
+						"api",
+						"action_on_entity"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://support.postmanlabs.com/api/action_on_entity' \\\n  -H 'accept: */*' \\\n  -H 'accept-language: en-US,en;q=0.9' \\\n  -H 'content-type: application/json' \\\n  -b 'ajs_anonymous_id=%22a1535650-e0b0-4d62-81e3-6fc5a0f3bc7f%22; sails.sid=s%3AFRKl0V-Gh4i4mFUMnucd6rd7JiN7BbNt.0%2FJWhL%2BxACIqOW5AUDGUJ6dM6aYW2lbivkp5wnjGxCw; postman-support.sid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjI4LCJuYW1lIjoiTmF0YWxpZSBNYXJ0ZWxsIiwiZW1haWwiOiJuYXRhbGllLm1hcnRlbGxAcG9zdG1hbi5jb20iLCJhY2Nlc3NfdG9rZW4iOiI0NTk5MWI5NmM1NmUxNDBlMjdhNzUxNzFjZTEwZTI1ZTNmN2JiMWUzOGQ3NWU3MmJlMWQyNTFjN2NkOTUxYWYwODgzZjNjM2QiLCJhZG1pbiI6ZmFsc2UsInByb3ZpZGVyIjoiZ29vZ2xlIiwiZ29vZ2xlX2lkIjoiMTE4MDAxODM4OTY2Mjg5Mjc2NTAxIn0.LZF9jUcyWDZeWUoa4Rln0Hwez0H4ka5bXg5pdG6bIN8; __cf_bm=rhoctmmTjifes1tfANjVoLVoa2ng7Y.VpgGYJdmDFBc-1770838834-1.0.1.1-zqxRX59Vsvsa77DO80ME7wycXa.pqaCjgepzLuJ9x_JxzCkpEMoHTC8eOasZpkNAQN2iNZYE2QsQNQjkmzzoUhKHt_tG0ZF5XdSHNHkxtck' \\\n  -H 'origin: https://support.postmanlabs.com' \\\n  -H 'priority: u=1, i' \\\n  -H 'referer: https://support.postmanlabs.com/' \\\n  -H 'sec-ch-ua: \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Google Chrome\";v=\"144\"' \\\n  -H 'sec-ch-ua-mobile: ?0' \\\n  -H 'sec-ch-ua-platform: \"macOS\"' \\\n  -H 'sec-fetch-dest: empty' \\\n  -H 'sec-fetch-mode: cors' \\\n  -H 'sec-fetch-site: same-origin' \\\n  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36' \\\n  -H 'x-csrf-token: W6si8ubyOGp5VkyCUqgtVDwg4wi+0jkSV9j30=' \\\n  --data-raw '{\"req_options\":{\"uri\":\"/x/support/workspaces/5999d6f1-6fe3-4bfc-823c-46ea33610131/visibility?user_id=36138394\",\"body\":{\"visibilityStatus\":\"team\"}},\"_permission\":\"root/Collaboration/Workspaces/UPDATE VISIBILITY OF WORKSPACE\",\"agent_logs\":{\"data\":{\"workspaceId\":\"5999d6f1-6fe3-4bfc-823c-46ea33610131\",\"userId\":\"36138394\",\"visibilityStatus\":\"team\",\"agent_notes\":\"support test\"},\"action\":\"UPDATE VISIBILITY OF WORKSPACE\",\"entity_name\":\"workspaceservice\",\"entity_id\":\"\"},\"workspaceId\":\"5999d6f1-6fe3-4bfc-823c-46ea33610131\",\"userId\":\"36138394\",\"visibilityStatus\":\"team\",\"agent_notes\":\"support test\"}'"
+			},
+			"response": []
 		}
 	]
 }
